@@ -7,16 +7,16 @@ Few steps to execute the project are as follows:
 2. Execute following commands:     
 `mvn compile `   
 `mvn clean install`    
-To run the project, enter path of the input files and output files - my input was stored in say: “/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/input/Sample.csv” 
-In the FlightBookingApp(project), in the root directory, there is an input folder where the input files can be stored
-Same for the output files as well:
-Example: “/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/output/Output.csv”      
+To run the project, enter path of the input files and output files - my input was stored in say: “/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/input/Sample.csv”     
+In the FlightBookingApp(project), in the root directory, there is an input folder where the input files can be stored.    
+Same for the output files as well:     
+Example: “/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/output/Output.csv”         
 `mvn exec:java -Dexec.mainClass=test.RunClient -Dexec.args= 
 "/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/input/Sample.csv /Users/ashika/Downloads/FlightBookingApp/src/main/java/test/input/flights.csv /Users/ashika/Downloads/FlightBookingApp/src/main/java/test/output/Output.csv /Users/ashika/Downloads/FlightBookingApp/src/main/java/test/output/Output.txt"`   
-Where: args[0] - Path to Bookings csv, 
-args[1] - Path to Flights csv, 
-args[2] - Path to Output csv and 
-args[3] - Path to error txt files
+Where: args[0] - Path to Bookings csv,    
+args[1] - Path to Flights csv,     
+args[2] - Path to Output csv and     
+args[3] - Path to error txt files.    
 
 
 ## Primary Problem
