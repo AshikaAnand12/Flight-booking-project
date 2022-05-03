@@ -48,6 +48,10 @@ By using a singleton pattern, data is clean and only one instance of data is req
 Using chain of responsibility we have a client called RunClient which has an interface to validate handler functions in the validation package where the function internally handles with 2 other objects of flight and booking.
 Using a composite design pattern we have created a scalable and efficient access control to the data within the flight. The class flight facilitates the subclass categoryAndSeats and the objects of subclass are nested within the objects of flight class. 
 
+## Class Diagram   
+![Class Diagram](https://user-images.githubusercontent.com/61357783/166569614-cbad240e-0e2e-4f02-9142-ce77a8034d4e.png)
+    
+    
 ## Junit
 <img width="1440" alt="Screen Shot 2022-05-03 at 12 44 33 PM" src="https://user-images.githubusercontent.com/61357783/166561322-986bb6c3-2895-46dd-a354-e4d815b8f1eb.png">
 
