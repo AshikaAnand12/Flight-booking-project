@@ -5,8 +5,8 @@
 Few steps to execute the project are as follows:
 1. Navigate to the project directory
 2. Execute following commands:     
-`mvn compile   
-mvn clean install`    
+`mvn compile `   
+`mvn clean install`    
 To run the project, enter path of the input files and output files - my input was stored in say: “/Users/ashika/Downloads/FlightBookingApp/src/main/java/test/input/Sample.csv” 
 In the FlightBookingApp(project), in the root directory, there is an input folder where the input files can be stored
 Same for the output files as well:
