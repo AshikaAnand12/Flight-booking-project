@@ -42,7 +42,7 @@ Chain of responsibility pattern is used when a set of objects handle the quest w
 ### Composite
 Composite design pattern is used where hierarchical representation of objects is required. Class Flight has subclass categoryAndSeats. 
 
-##Consequences of using a design pattern
+## Consequences of using a design pattern
 By using a singleton pattern, data is clean and only one instance of data is required which is created and used. 
 Using chain of responsibility we have a client called RunClient which has an interface to validate handler functions in the validation package where the function internally handles with 2 other objects of flight and booking.
 Using a composite design pattern we have created a scalable and efficient access control to the data within the flight. The class flight facilitates the subclass categoryAndSeats and the objects of subclass are nested within the objects of flight class. 
