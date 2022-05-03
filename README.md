@@ -33,16 +33,30 @@ Secondary problem is validating all details and managing status. To validate a c
 Three design patterns I have used is: 
 ### Singleton
 Singleton design pattern is used when the system has to ensure that only one instance of the class is created. I have stored flight information as static and created a single instance of the object which is accessed throughout the code.
-
+<img width="623" alt="Screen Shot 2022-05-02 at 12 40 20 PM" src="https://user-images.githubusercontent.com/61357783/166560801-cce606bc-23d7-4a62-a500-0abeb5b61aee.png">
 
 ### Chain of Responsibility
 Chain of responsibility pattern is used when a set of objects handle the quest with a handler. On running the project, at first an object of flight is created, then an object of booking is created, both these objects are passed to the validation where the details are validated against each other and then entered into output or error files.
-
+<img width="615" alt="Screen Shot 2022-05-03 at 1 32 19 PM" src="https://user-images.githubusercontent.com/61357783/166561233-b558101f-86dd-4bc9-8e83-968a26514d79.png">
 
 ### Composite
 Composite design pattern is used where hierarchical representation of objects is required. Class Flight has subclass categoryAndSeats. 
+<img width="614" alt="Screen Shot 2022-05-03 at 1 32 41 PM" src="https://user-images.githubusercontent.com/61357783/166561257-f09046af-cb75-44e5-92bd-943c3b020607.png">
 
 ## Consequences of using a design pattern
 By using a singleton pattern, data is clean and only one instance of data is required which is created and used. 
 Using chain of responsibility we have a client called RunClient which has an interface to validate handler functions in the validation package where the function internally handles with 2 other objects of flight and booking.
 Using a composite design pattern we have created a scalable and efficient access control to the data within the flight. The class flight facilitates the subclass categoryAndSeats and the objects of subclass are nested within the objects of flight class. 
+
+## Junit
+<img width="1440" alt="Screen Shot 2022-05-03 at 12 44 33 PM" src="https://user-images.githubusercontent.com/61357783/166561322-986bb6c3-2895-46dd-a354-e4d815b8f1eb.png">
+
+<img width="1440" alt="Screen Shot 2022-05-03 at 12 44 54 PM" src="https://user-images.githubusercontent.com/61357783/166561372-cc17bd82-d7f6-4a41-a439-91f65dc66d42.png">
+
+<img width="1440" alt="Screen Shot 2022-05-03 at 12 45 13 PM" src="https://user-images.githubusercontent.com/61357783/166561397-ee5ea3d8-c4be-453e-addb-119efcb42d10.png">
+
+<img width="1440" alt="Screen Shot 2022-05-03 at 12 45 51 PM" src="https://user-images.githubusercontent.com/61357783/166561476-d504c912-04bc-49fe-a957-116e1778eb9e.png">
+
+<img width="1440" alt="Screen Shot 2022-05-03 at 12 46 21 PM" src="https://user-images.githubusercontent.com/61357783/166561512-fc394e07-63ef-486e-aba7-702904ca8148.png">
+
+
