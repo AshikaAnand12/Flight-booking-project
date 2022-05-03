@@ -32,15 +32,15 @@ Secondary problem is validating all details and managing status. To validate a c
 ## Design Pattern
 Three design patterns I have used is: 
 ### Singleton
-Singleton design pattern is used when the system has to ensure that only one instance of the class is created. I have stored flight information as static and created a single instance of the object which is accessed throughout the code.
+Singleton design pattern is used when the system has to ensure that only one instance of the class is created. I have stored flight information as static and created a single instance of the object which is accessed throughout the code.     
 <img width="623" alt="Screen Shot 2022-05-02 at 12 40 20 PM" src="https://user-images.githubusercontent.com/61357783/166560801-cce606bc-23d7-4a62-a500-0abeb5b61aee.png">
 
 ### Chain of Responsibility
-Chain of responsibility pattern is used when a set of objects handle the quest with a handler. On running the project, at first an object of flight is created, then an object of booking is created, both these objects are passed to the validation where the details are validated against each other and then entered into output or error files.
+Chain of responsibility pattern is used when a set of objects handle the quest with a handler. On running the project, at first an object of flight is created, then an object of booking is created, both these objects are passed to the validation where the details are validated against each other and then entered into output or error files.    
 <img width="615" alt="Screen Shot 2022-05-03 at 1 32 19 PM" src="https://user-images.githubusercontent.com/61357783/166561233-b558101f-86dd-4bc9-8e83-968a26514d79.png">
 
 ### Composite
-Composite design pattern is used where hierarchical representation of objects is required. Class Flight has subclass categoryAndSeats. 
+Composite design pattern is used where hierarchical representation of objects is required. Class Flight has subclass categoryAndSeats.      
 <img width="614" alt="Screen Shot 2022-05-03 at 1 32 41 PM" src="https://user-images.githubusercontent.com/61357783/166561257-f09046af-cb75-44e5-92bd-943c3b020607.png">
 
 ## Consequences of using a design pattern
