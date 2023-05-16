@@ -5,6 +5,7 @@ This repo contains a flightbooking application that practices 3 design patterns
 2. Chain of Responsibility
 3. Composite
 
+Note: Repo forked from my assignment submission under Professor Gopinath at SJSU for the subject Software Systems Engineering
 
 ## Steps to Execute
 Few steps to execute the project are as follows:
