@@ -1,4 +1,9 @@
-# Individual Project
+#Design Patterns in a flight booking application
+
+This repo contains a flightbooking application that practices 3 design patterns
+1. Singleton
+2. Chain of Responsibility
+3. Composite
 
 
 ## Steps to Execute
