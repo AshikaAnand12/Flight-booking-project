@@ -1,4 +1,4 @@
-#AirTicket
+# AirTicket
 ## Design Patterns in a flight booking application
 
 This repo contains a flightbooking application that practices 3 design patterns
